@@ -1,0 +1,314 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.mail{
+	height: 50px;
+	float: left;
+	border: 1px solid white;
+	background-color: #1f1f1f;
+}
+.phone{
+	height: 50px;
+	border: 1px solid white;
+	float: left;
+	background-color: #1e1e1e;
+}
+.link{
+	height: 50px;
+	border: 1px solid white;
+	float: left;
+	text-align: center;
+	background-color: #1e1e1e;
+}
+.mail p{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.mail a{
+	text-decoration: none;
+}
+.phone p{
+	text-align: center;
+	margin-top: 7px;
+	font-size: 20px;
+}
+.phone a{
+	text-decoration: none;
+}
+.mail:hover{
+	background-color: #999999;
+}
+.phone:hover{
+	background-color: #999;
+}
+.link .fa{
+	margin-top: 10px;
+	font-size: 25px;
+	margin-left: 20px;
+	text-align: center;
+}
+.link:hover{
+	background-color: #999;
+}
+.logo{
+	height: 100px;
+	border: 1px solid white;
+	float:left;
+}
+.apply{
+	height: 100px;
+	border: 1px solid;
+	float: left;	
+}
+.cont{
+	height: 100px;
+	border: 1px solid;
+	float: left;
+	background-color: #f1f1f1;
+}
+.logo img{
+	height: 90px;
+	width: 100%;
+}
+.cont p{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 8px;
+}
+.menu{
+	background-color: gray;
+}
+.home{
+	height: 40px;
+	border:1px solid white;
+	float: left;
+}
+.about{
+	height: 40px;
+	border: 1px solid white;
+	float: left;
+}
+.ap{
+	height: 40px;
+	border: 1px solid white;
+	float: left;
+}
+.gallary{
+	height: 40px;
+	border: 1px solid white;
+	float: left;
+}
+.contact{
+	height: 40px;
+	border: 1px solid white;
+	float: left;
+}
+.menu p{
+	text-align: center;
+	margin-top: 3px;
+	font-size: 20px;
+	text-decoration: none;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+.home:hover{
+	border-top: 2px solid red;
+	background-color: #1f1f1f;
+}
+.about:hover{
+	border-top: 2px solid red;
+	background-color: #1f1f1f;
+}
+.ap:hover{
+	border-top: 2px solid red;
+	background-color: #1f1f1f;
+}
+.gallary:hover{
+	border-top: 2px solid red;
+	background-color: #1f1f1f;
+}
+.contact:hover{
+	border-top: 2px solid red;
+	background-color: #1f1f1f;
+}
+.slider{
+	height: 350px;
+	float: left;
+}
+.enquiry{
+	margin-top: 10px;
+	height: 350px;
+	float: left;
+}
+
+.slidershow{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+}
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid red;
+	margin: 6px;
+	cursor: pointer;
+}
+.bar:hover{
+	background: red;
+}
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+
+}
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+.slide{
+	width: 20%;
+	transition: 1s;
+}
+.slide img{ 
+	width: 100%;
+	height: 100%;
+}
+
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -20%;
+}
+#r3:checked ~ .s1{
+	margin-left: -40%;
+}
+#r4:checked ~ .s1{
+	margin-left: -60%;
+}
+.heading{
+	height:35px;
+	border: 1px solid;
+	font-size: 20px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+input{
+	background-color: red;
+	margin-left: 0px;
+	margin-top: 8px;
+	width: 100%;
+	color: white;
+	border-radius: 10px;
+	padding: 3px;
+}
+input::placeholder{
+	color: white;
+	opacity: .5;
+}
+.btn{
+	background-color: red;
+	color: white;
+	width: 100%;
+	border-radius: 10px;
+}
+.course{
+	height: 40px;
+	background-color: red;
+}
+.course p{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.cou{
+	background-color: #e1e1e1;
+}
+.hm{
+	height: 300px;
+	border: 2px solid white;
+	float: left;
+}
+.bca{
+	height: 300px;
+	border: 2px solid white;
+	float: left;
+}
+.bba{
+	height: 300px;
+	border: 2px solid white;
+	float: left;
+}
+.mamc{
+	height: 300px;
+	border: 2px solid white;
+	float: left;
+}
+.image{
+	height: 130px;
+}
+.cou img{
+	height: 110px;
+	width: 110px;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+.wel{
+	float: left;
+	background-color: #e2e2e2;
+	margin-top: 10px;
+	text-align: justify;
+}
+.navi{
+	height: 280px;
+	float: left;
+	background-color: red;
+	color: white;
+}
+.map{
+	height: 280px;
+	float: left;
+	background-color: red;
+	color: white;
+}
+.contactus{
+	height: 280px;
+	float: left;
+	background-color: red;
+	color: white;
+}
+.na{
+	margin-left: 30%;
+}
+.footer{
+	margin-top: 10px;
+}
+.mt{
+	margin-top: 20px;
+}

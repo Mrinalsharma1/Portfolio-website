@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+}
+.news{
+	height: 450px;
+}
+
+.about h2 , .section-title h2 , .faculty h2{
+	font-family: 'Kelly Slab', cursive;
+}
+.about p , .section-title p{
+	font-family: 'Montserrat', sans-serif;
+}
+.logo img{
+    height: 122px;
+    max-height: 240px;
+    max-width: 240px;
+    width: 134px;
+}
+.flogo img{
+    height: 98px;
+    max-height: 240px;
+    max-width: 240px;
+    width: 110px;
+}
+.card{
+	float: left;
+	margin-right: 10px;
+	background-color: #E9ECEF;
+	border-bottom: 3px solid #17A2B8;
+}
+.card img {
+	height: 350px;
+	border: 5px solid #313131;
+}
+
+.course-image img{
+	height: 200px;
+	margin-top: -70px;
+}
+.course-content p{
+	text-align: justify;
+}
+.course-content h3,h4{
+	padding-top: 20px;
+	font-weight: 600;
+}
+
+.open-hours, .social-links{
+	padding-top: 7px;
+}
+.navbar{
+	background-color: #17A2B8;
+}
+.navbar-toggler{
+	color: red;
+}
+.dropdown a:hover{
+	color: red;
+}
+.nav-item{
+	padding-left: 10px;
+}
+
+.location{
+	margin-top: 30px;
+}
+.call{
+	margin-top: 30px;
+}
+
+.news h2 , .branch h3{
+	 background-color: #17A2B8;
+	 width: 300px;
+	 text-align: center;
+	 margin-left: -15px;
+	 font-family: 'Kelly Slab', cursive;
+}
+
+
+/* feedback area/ Testimonial area start */
+.feedback h2{
+	position: relative;
+}
+.feedback h2::after{
+	content: "";
+	width: 130px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #FFC107;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.feedback .carousel-inner .carousel-item .img-box{
+	width: 135px;
+	height: 135px;
+}
+.feedback .carousel-control-prev{
+	left: -100px;
+}
+.feedback .carousel-control-next{
+	right: -100px;
+}
+.feedback .carousel-indicators{
+	top: 320px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+	.feedback .carousel-inner .carousel-item p{
+		font-size: 14px;
+	}
+	.feedback .carousel-control-prev{
+		left: -40px;
+	}
+	.feedback .carousel-control-next{
+		right: -40px;
+	}
+ 	.feedback .carousel-indicators{
+		top: 400px;
+	}
+}
+
+.course img{
+	height: 200px;
+	width: 100%;
+	outline: 2px solid gray;
+}
+.read-more a{
+	background-color: #fafafa;
+	padding:6px;
+	color: #313131;
+}
+.read-more a:hover{
+	color:#00BFFF;
+	
+}
+.team button a{
+	text-decoration: none;
+}
+@media (max-width: 640px) {
+	.open-hours p{
+		font-size: 10px;
+		font-weight: 600;
+	}
+	.social-links{
+		margin-top: -10px;
+	}
+	.location{
+		text-align: center;
+		margin-top: -5px;
+	}
+	.call{
+		margin-top: -5px;
+	}
+	.call p{
+		text-align: center;
+		margin-right: 110px;
+	}
+	.location .fa-envelope-open-text{
+		font-size: 35px; float: left;  margin-right: 10px; margin-top: 5px;
+	}
+	.call i{
+		padding-left: 50px;
+	}
+	.news h2{
+		 background-color: #17A2B8;
+		 width: 314px;
+		 text-align: center;
+		 margin-left: -15px;
+		 font-family: 'Kelly Slab', cursive;
+	}
+	.about h2{
+		font-size: 22px;
+		text-align: center;
+		font-weight: 500;
+	}
+	.course-image img{
+		height: 150px;
+		margin-top: -50px;
+	}
+	.card{
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.branch h3{
+		width: 400px;
+		text-align: center;
+	}
+	.fb-page{
+		margin-bottom: 15px;
+		margin-left: 15px;
+	}
+	.team{
+		margin-bottom: 10px;
+	}
+	.copyright{
+		height: 90px;
+	}
+	.app{
+		margin-top: -20px;
+	}
+	.photo h4{
+		margin-right: -100px;
+	}
+}
+.fa-bars{
+	color: #e3f2fd;
+}
+.gallery img{
+	height: 300px;
+	width: 250px;
+}
+.video video{
+	height: 300px;
+	width: 360px;
+}
+@media (max-width: 640px) {
+	.video video{
+		height: 300px;
+		width: 300px;
+	}
+}
+.copyright{
+	background-color: #313131;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+@media (max-width: 640px) {
+	.copyright{
+		font-size: 15px;
+	}
+}
+.photo img{
+	height: 450px;
+	width: 370px;
+	border-radius: 30px;
+}
+.info p{
+	font-size: 20px;
+}
+@media (max-width: 640px) {
+	.photo img{
+		height: 350px;
+		width: 300px;
+		border-radius: 30px;
+	}
+}
+.news , .branch {
+	background-color: #e3f2fd;
+}
+.navigator{
+	background-color: #eee;
+}
+.path p{
+	float: right;
+	margin-right: 50px;
+	color: white;
+}
+.path a{
+	font-size: 20px;
+}
+.current-page h3{
+	color: white;
+}
+.address p{
+	margin: 25px;
+	text-align: center;
+}
+@media (max-width: 640px) {
+	.path a{
+		font-size: 20px;
+	}
+	.current-page h3{
+		float: left;
+		font-size: 16px;
+		color: white;
+	}
+	.path p{
+		float: right;
+		margin-right: 16px;
+		color: white;
+	}
+}
+@media (max-width: 640px) {
+	.address p{
+		margin-left: 80px;
+	}
+}
+.course{
+	text-align: justify;
+}
+@media (max-width: 640px) {
+	.course p{
+		text-align: justify;
+	}
+}
+.current-page h3{
+	color: black;
+}
+.current-page i{
+	color: black;
+}
+.abt{
+	margin-right: 50px;
+}
+@media (max-width: 640px) {
+	.abt{
+		margin-left: 50px;
+	}
+}
+.footer-map{
+	margin-left: -13px;
+}
+.branch .fa-home{
+	 float: left; margin-right: 5px; color: #17A2B8;
+}
+.branch .fa-phone-volume{
+	 font-size: 20px; float: left;  margin-right: 5px; color: #17A2B8;
+}
+.branch .fa-globe{
+	 margin-right: 5px; color: #17A2B8;
+}
+.branch .fa-envelope-open-text{
+	 font-size: 20px; margin-right: 5px; color: #17A2B8;
+}
+.video video{
+	height: 200px;
+	margin-top: 10px;
+}
+.app{
+	margin-left: 100px;
+}
+.app img{
+	height: 60px;
+	width: 180px;
+}
