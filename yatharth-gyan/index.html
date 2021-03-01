@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" 
+      type="image/png" 
+      href="img/logo.png" style="height: 100%;width: 100%;border-radius: 50%;">
+	<title>yathart-gyan</title>
+
+	
+	<!-- bootstrap links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- swiper link -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- google font link -->
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Sacramento&display=swap" rel="stylesheet">
+	<!-- font awsome links -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="myfunction()">
+<!-- add pre-loder section start -->
+	<div id="loading">
+		
+	</div>	
+<!-- add pre-loder section end -->
+		<div class="top-header">
+			<div class="container-fluid">
+				<div class="row" style="background: #F75E0E";height="25px";>
+					<div class="col-md-4 col-sm-12">
+						<div class="email">
+							<p><i class="fa fa-envelope"></i><span>info@yatharthgyan.com</span></p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div id="clockbox" style="color: white; padding: 15px 10px;text-align: center;"></div>
+					</div>
+
+					<div class="col-md-4 col-sm-12">
+						<div class="social-links">
+							<a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+							<a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+							<a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+							<a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12">
+						<img src="img/logo.png"alt="logo">
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="title">
+							<p><i class="fa fa-phone"></i><span>Helpline</span><br>+91 9155532649</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="title">
+							<p><i class="fa fa-comment"></i><span>Feedback</span><br>Upgrade for Next!</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="title">
+							<p><i class="fa fa-question"></i><span>Query</span><br>Ask Question?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="menubar">
+				<nav>
+					<input type="checkbox" id="check">
+					<label for="check">
+						<i class="fa fa-bars" id="btn"></i>
+						<i class="fa fa-times" id="cancle"></i>
+					</label>
+					<ul>
+						<div id="myDIV">
+						<li><a href="index.html" class="btn active">Home</a></li>
+						<li><a href="#" class="btn">About</a></li>
+						<li><a href="#" class="btn">Gallery</a></li>
+						<li><a href="service.html" class="btn">Services</a></li>
+						<li><a href="#" class="btn">Contact</a></li>
+						<li><a href="#" class="btn">Feedback</a></li>
+					</ul>
+				</nav>
+			</div>
+	<!-- slider bar start -->
+		<!-- Swiper -->
+<div class="slider">
+  <div class="swiper-container">
+    
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="parallax-bg" style="background-image:url(img/slider1.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="title" data-swiper-parallax="-300">Slide 1</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+            felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet
+            magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros
+            quis feugiat.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="parallax-bg" style="background-image:url(img/slider2.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Slide 2</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+            felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet
+            magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros
+            quis feugiat.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="parallax-bg" style="background-image:url(img/slider3.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="title" data-swiper-parallax="-300">Slide 3</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus
+            felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet
+            magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros
+            quis feugiat.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+  </div>
+</div>
+	<!-- slider bar end -->
+	<!-- footer area start -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4" subscribe>
+						<h3>Subscribe to get the latest <span style="color:#f66867; ">news &amp; updates</span>.</h3>
+					</div>
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<div class="subscribe">
+       						<form>
+					          <input type="email" placeholder="Your email address">
+					          <input type="submit" value="Subscribe">
+					        </form>
+					    </div>
+					</div>
+				</div>
+				<div class="border"></div>
+				<div class="row">
+					<div class="col-md-3 first">
+						<img src="img/logo.png" style="height: 200px; margin-top: -50px;">
+						<p style="margin-top: -35px; padding: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris ></p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xm-12 segment-two md-mb-30 sm-mb-30">
+						<h3 style="font-family: poppins;">Useful Links</h3>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#course">Course</a></li>
+							<li><a href="#faculty">Faculty</a></li>
+							<li><a href="#gallery">Gallery</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h2 style="font-family: poppins;">Get in Touch</h2>
+							<ul compact="social-info">
+								<li><a href="#">info@sharmag.com</a></li>
+								<li><a href="#">9155532649</a></li>
+							</ul>
+					</div>
+					<div class="col-md-3">
+						<h3 style="font-family: poppins;">Community</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="footer-btm">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center p-2 copyright">
+      <b>&copy; 2020 Rights Reserved | Design & Developed by</b>
+     <a href=""><b>@Mrinal Sharma</b></a>
+   </div>
+					<div class="col-md-4">
+						<div class="soc" style="text-align: center; padding-top: -10px;">
+						
+							<a href="#"><i class="fa fa-facebook" style="color: #f1f1f1;  width: 30px; height: 40px;"></i></a>
+						<a href="#"><i class="fa fa-twitter" style="color: #00acee ;  width: 30px; height: 40px;"></i></a>
+						<a href="#"><i class="fa fa-instagram" style="color: #FD1D1D ;  width: 30px; height: 40px;"></i></a>
+						<a href="#"><i class="fa fa-linkedin" style="color:  #0e76a8 ;  width: 30px; height: 40px;"></i></a>
+						<a href="#"><i class="fa fa-pinterest" style="color: #E60023 ;  width: 30px; height: 40px;"></i></a>
+						
+						</div>
+					</div>
+					<div class="col-md-4 term" style="text-align: center;">
+						<p><span>Term </span><span>Policy</span><span>Private</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- footer area end -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      speed: 600,
+      parallax: true,
+      centeredSlides: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+        autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+	
+	<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+<script type="text/javascript">
+	var preloder = document.getElementById('loading');
+
+	function myfunction(){
+		preloder.style.display = 'none';
+	}
+</script>
+<!-- for header section time display code start --> 
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+document.getElementById('clockbox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+<!-- for header section time display code end --> 
+</body>
+</html>
