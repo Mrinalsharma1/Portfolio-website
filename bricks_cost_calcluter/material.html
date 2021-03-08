@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>bricks cal</title>
+  </head>
+  <body>
+    <div class="container-fluid mb-3">
+  		<div class="row">
+  			<div class="col-md-12 bg-primary">
+  				<h2 class="text-center mt-3 mb-3">Sharma Bricks calcluter</h2>
+  			</div>
+      		<nav class="navbar navbar-expand-lg navbar-light">
+      		  <a class="navbar-brand font-weight-bold text-warning" style="font-size: 26px;" href="#">SHARMA INDUSTRIES</a>
+      		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      		    <span class="navbar-toggler-icon"></span>
+      		  </button>
+      		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      		    <div class="navbar-nav " style="font-size: 20px; font-weight: 600;">
+      		      <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      		      <a class="nav-item nav-link active" href="Material.html">Material</a>
+      		      <a class="nav-item nav-link" href="cost.html">Cost</a>
+      		      <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+      		    </div>
+    		    </div>
+    		  </nav>
+	    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 bg-danger">
+          <div class="card">
+            <div class="card-header text-center">Quantity</div>
+              <div class="card-body">
+                <form action="cost.html">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Fly-Ash</label>
+                    <input type="text" class="form-control" id="Fly-Ash" placeholder="Enter Fly-Ash price in Ton">
+                    <input type="text" class="form-control mt-1" id="kgfly" placeholder="Enter Fly-Ash in KG">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Sand</label>
+                    <input type="text" class="form-control" id="Sand" placeholder="Enter Sand price in CFT">
+                    <input type="text" class="form-control mt-1" id="kgsand" placeholder="Enter Sand in KG">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Stone-Dust</label>
+                    <input type="text" class="form-control" id="Stone-Dust" placeholder="Enter Stone-Dust price in Ton">
+                    <input type="text" class="form-control mt-1" id="kgstone" placeholder="Enter Stone-Dust in KG">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Cement</label>
+                    <input type="text" class="form-control" id="Cement" placeholder="Enter Cement price in bag">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Bricks Weight</label>
+                    <input type="text" class="form-control" id="weight" placeholder="Enter your Bricks weight">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Labour/Electricity etc.</label>
+                    <input type="text" class="form-control" id="Labour" placeholder="Enter Labour cost in pices">
+                  </div>
+                  <button type="submit" onclick="myfun();" class="btn btn-primary">Submit</button>
+                  <button type="submit" onclick="Cleardata();" class="btn btn-primary">Clear Data</button>
+                </form>
+              </div>
+              <div class="card-footer text-muted"> 2 days ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- our grid section -->
+    <div class="container-fluid mt-2" style="background: #f1f1f1;">
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <h1 class="text-center">our certified customers<span class="text-danger">--</span></h1>
+          <p class="text-center">we are works with Us...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <marquee>
+      <div class="row mt-3">
+        <div class="col-md-2">
+          <img src="img/l1.jpg" alt="logo1">
+        </div>
+        <div class="col-md-2">
+          <img src="img/l2.jpg" alt="logo1">
+        </div>
+        <div class="col-md-2">
+          <img src="img/l3.jpg" alt="logo1">
+        </div>
+        <div class="col-md-2">
+          <img src="img/l4.jpg" alt="logo1">
+        </div>
+        <div class="col-md-2">
+          <img src="img/l5.jpg" alt="logo1">
+        </div>
+        <div class="col-md-2">
+          <img src="img/l6.jpg" alt="logo1">
+        </div>
+      </div>
+    </marquee>
+    </div>
+    
+    <!-- footer Area -->
+    
+    <div class="container-fluid mt-3 bg-dark">
+      <footer class="border-top ">
+        <div class="row">
+          <div class="col-md-3 mt-3">
+            <h3 class="text-primary text-center mt-3">SHARMA INDUSTRIES</h3>
+            <p class="text-light px-3">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et  est laborum.</p>
+          </div>
+          <div class="col-md-3 mt-2">
+            <h4 class="text-light">Features</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-2 ">
+            <h4 class="text-light">Resources</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-2">
+            <h4 class="text-light">About</h4>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+     </div>
+     <!-- Design and devloped section -->
+     <div class="container-fluid" style="background: black;">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center text-muted pt-3">© Copyright 2021. All Rights Reserved Design and Devloped By <span class="text-light">@Mrinal Sharma</span></p>
+        </div>
+      </div>
+     </div>
+<script type="text/javascript">
+      const Cleardata = () =>{
+         localStorage.clear();
+      }
+      const myfun = () =>{
+        var fly = document.getElementById("Fly-Ash").value;
+        var Sand = document.getElementById("Sand").value;
+        var stone = document.getElementById("Stone-Dust").value;
+        var Cement = document.getElementById("Cement").value;
+        var Labour = document.getElementById("Labour").value;
+        
+         var fly1 = document.getElementById("kgfly").value;
+         var sand1 = document.getElementById("kgsand").value;
+         var stone1 = document.getElementById("kgstone").value;
+        var weight1 = document.getElementById("weight").value;
+        var forper = (Number(fly1)+Number(sand1)+Number(stone1)+50);
+        var add = (Number(fly1)+Number(sand1)+Number(stone1)+50)/Number(weight1);
+
+        const flykg = fly1*(fly/1000);
+        var sandkg = Sand/100;
+        var sandkg = Math.round(sand1*(sandkg/45));
+        const stonekg = stone1*(stone/1000); 
+
+        // store material prise in local storage
+           localStorage.setItem("kgflyash",flykg);
+           localStorage.setItem("kgsand",sandkg); 
+           localStorage.setItem("kgstone",stonekg);
+           localStorage.setItem("cementbag",Cement);
+
+
+         var flyper = Math.round((Number(fly1)*100)/Number(forper));
+         var sandper = Math.round((Number(sand1)*100)/Number(forper));
+         var stoneper = Math.round((Number(stone1)*100)/Number(forper));
+         var cementper = Math.round(Number(flyper)+Number(sandper)+Number(stoneper)-(100));
+
+         var cost = Number(flykg)+Number(sandkg)+Number(stonekg)+Number(Cement)+(Number(add)*Number(Labour));
+         var price =  Math.round(Number(cost)/Number(add));
+
+         // store value in local storage
+
+         localStorage.setItem("flyash",flyper);
+         localStorage.setItem("psand",sandper); 
+         localStorage.setItem("pstone",stoneper);
+         localStorage.setItem("cement",cementper);
+         localStorage.setItem("bricks_price",price);
+
+        // send value on cost price form 
+        return(false);
+      }
+        
+   </script>
+   
+</body>
+</html>
