@@ -1,0 +1,328 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ############## top header css start ############# */
+
+.top-header{
+	height: 30px;
+	line-height: 30px;
+}
+/* ############## top header css End ############# */
+
+/* ############## nav css start ################## */
+
+.nav-link{
+	font-size: 17px;
+	font-weight: 600;
+	margin-left: 30px;
+	color: #282828!important;
+
+}
+.active{
+	color: #2874d3!important;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #2874d3;
+}
+.navbar-brand{
+	font-size: 23px!important;
+	font-weight: 700;
+	color: #2874d3!important;
+	padding-left: 100px;
+}
+
+/*media query*/
+@media(max-width:600px){
+	.nav-link{
+		font-size: 17px;
+		font-weight: 600;
+		border-bottom: none;
+		margin-left: -14%;
+	}
+	.navbar-brand{
+		font-size: 23px!important;
+		font-weight: 700;
+		color: #2874d3!important;
+		padding-left: 0px;
+	}
+}
+
+
+/* ############## nav css End ################## */
+
+/* ############## main banner css start ##################### */
+
+.main-banner{
+	height: 85vh;
+	width: 100%;
+	background-image: url('../image/banner.jpg');
+}
+.main-banner h6{
+	font-size: 27px;
+	color: #fff;
+	padding-top: 10%;
+	padding-left: 20%;
+}
+.main-banner h5{
+	font-size: 72px;
+	color: #fff;
+	padding-left: 20%;
+}
+.main-banner p{
+	font-size: 17px;
+	color: #fff;
+	padding-left: 20%;
+}
+.main-banner img{
+	height: 420px;
+}
+.main-banner .read-more{
+	height: 40px;
+	width: 150px;
+	background-color: #fff;
+	color:#000;
+	font-weight: 600;
+	border: none;
+	margin-left: 20%;
+}
+.main-banner .call-us{
+	height: 40px;
+	width: 150px;
+	background-color: #fff;
+	color:#fff;
+	font-weight: 600;
+	border: none;
+	margin-left: 3%;
+	border: 1px solid #fff;
+	background-color:  #2874d3;
+}
+
+
+
+
+
+/*media query*/
+@media(max-width:600px){
+	.main-banner img{
+		display: none;
+	}	
+	.main-banner h6{
+		padding-left: 0px;
+		margin-top: 10%;
+		font-size: 20px;
+		margin-top: 5%;
+		text-align: center;
+	}
+	.main-banner h5{
+		padding-left: 0px;
+		font-size: 50px;
+		text-align: center;
+	}
+	.main-banner p{
+		padding-left: 0px;
+		font-size: 20px;
+		margin-top: 5%;
+		text-align: center;
+	}
+	.main-banner .read-more{
+		margin-top: 10%;
+	}
+	
+}
+
+
+/* ############## main banner css End ##################### */
+
+
+/* ################# service section start ##################### */
+
+.service-section{
+	background-color: blue;
+	margin-top: -70px!important;
+}
+
+.service-section img{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.service-section h5{
+	color: #fff!important;
+	padding-top: 10px;
+}
+.service-section p{
+	color: #fff!important;
+	padding-top: 10px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+
+
+
+/*media query*/
+@media(max-width:600px){
+	.service-section{
+	background-color: blue;
+	margin-top: 0px!important;
+}
+}
+/* ################# service section End ##################### */
+
+/*  ################# who we are section start ###############*/
+.box img{
+	height: 250px;
+
+}
+.box_content p{
+	font-size: 30px;
+}
+.box_content span{
+	font-weight: 600;
+	font-size: 30px;
+}
+.box_paragraph p{
+	font-size: 16px;
+}
+.box_icon{
+	padding-left: 20px;
+}
+.box_icon span{
+	font-size: 15px;
+}
+.read_more h6{
+	color: #2874d3;
+}
+.read_more h6 img{
+	margin-left: 5px;
+}
+/*media query*/
+@media(max-width:600px){
+	.box img{
+	margin-left: 20px;
+}
+}
+
+/*  ################# who we are section marker-end:  ###############*/
+
+/* ################# services menu section start ############### */
+.services{
+	background-image: url('../image/Service-Menu.jpg');
+	/*height: 300px;*/
+}
+.services p{
+	font-size: 34px;
+}
+.services span{
+	font-weight: 700;
+}
+.services .service_table{
+	background-repeat: no-repeat;
+}
+.services .service_table img{
+	float: right;
+	height: 300px;
+	margin-top: -155px;
+} 
+.services .service_table table{
+	margin-left: 40px; 
+}
+.services .table img{
+	margin-right: 8px;
+}
+/*media query*/
+@media(max-width:600px){
+	.services p{
+	padding: 0px 80px 0px 0px;
+}
+}
+
+/* ################# services menu section End ############### */
+
+/* ################# Book Now section Start ############### */
+.left_background{
+	background-image: url('../image/cross_grid_01.png');
+}
+.left_background .left_box{
+	
+	border: 2px solid blue;
+	margin: 70px 10px 30px 50px;
+}
+.left_background .left_box p{
+	font-size: 26px;
+}
+.left_background .left_box .form{
+	background-color: white;
+	margin-top: -40px;
+}
+.left_background .left_box p span{
+	font-weight: 700;
+	font-size: 28px;
+}
+.left_background .left_box .nav-item .nav-link:hover{
+	border-bottom: 2px solid blue;
+}
+.right_box img{
+	height: 420px;
+	margin-left: -20px;
+}
+.service_background{
+	margin-top: -135px;
+}
+.service_background img{
+	width: 97vw;
+}
+
+/*media query*/
+@media(max-width:600px){
+	.service_background img{
+		margin-top: 40px;
+	width: 93vw;
+}
+.right_box img{
+	padding: 0px 20px;
+}
+}
+
+/* ################# Book Now section End ############### */
+
+/* ################# contact us section Start ############### */
+.info{
+	margin-top: -70px; 
+}
+/*media query*/
+@media(max-width:600px){
+	.info{
+		margin-top: 20px;
+	
+	}
+}
+
+/* ################# Contact us section End ############### */
+
+/* ################# footer Section Start ############### */
+.footer{
+	background-color: #344fa1;
+}
+.footer h2{
+	color: white;
+	font-weight: 700;
+}
+.footer h3{
+	color: white;
+	margin-left: 20px;
+}
+.footer .quick_links,.services_links span{
+	margin-left: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+/*media query*/
+@media(max-width:600px){
+	.info{
+		margin-top: 20px;
+	
+	}
+}
+
+/* ################# footer section End ############### */
